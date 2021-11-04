@@ -5,7 +5,7 @@ This project was created to display my portfollio on a webpage using HTML5 for t
 ## Preview:
 ![alt text](Professional-Portfolio.gif "Portfolio Webpage")
 ## Links
-[Portfolio Webpage] (https://vsanomons1.github.io/Professional_Portfolio/)
+[Portfolio Webpage](https://vsanomons1.github.io/Professional_Portfolio/)
 ## License
 MIT License
 
