@@ -2,6 +2,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing:border-box;
 }
+
 body{
     display: flex;
     flex-direction: column;
@@ -9,6 +10,7 @@ body{
     margin:0;
     background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.658), rgb(42, 168, 226));
 }
+
 h3{
     color: rgb(0, 126, 255);
     font-size: 2em;
@@ -32,6 +34,7 @@ header{
     background-size: 50em 21em;
     
 }
+
 header h1 {
     border: 7px solid rgb(24, 168, 216);
     border-left: none;
@@ -44,10 +47,12 @@ header h1 {
     color:whitesmoke;
     padding: .5em;
 }
+
 header img{
     width: 100px;
     height: 100px;
 }
+
 nav{
     background-color: whitesmoke;
     border: 5px solid deepskyblue;
@@ -56,12 +61,14 @@ nav{
     padding: .5em;
     margin-bottom: -7.5em;
 }
+
 nav a {
     font-size:1.3em;
     color:deepskyblue;
     padding: .5em;
     text-decoration-line: none;
 }
+
 main{
     flex:2;
     display: flex;
@@ -80,14 +87,7 @@ main span {
     align-self: center;
     margin-top: -0.2em;
 }
-section span{
-    font-size: 4em;
-    -webkit-text-stroke: 2px;
-    color: whitesmoke;
-    align-self: center;
-    margin-top: -0.2em;
-    padding: 0.5em;
-}
+
 article{
     flex: 2;
    padding: 1em;
@@ -123,25 +123,27 @@ section{
     color: deepskyblue;
     margin-bottom: 1%;
 }
-/* section a {
-    font-size: 0;
-    padding: 0;
-} */
+
+section span{
+    font-size: 4em;
+    -webkit-text-stroke: 2px;
+    color: whitesmoke;
+    align-self: center;
+    margin-top: -0.2em;
+    padding: 0.5em;
+}
+
 section a{
     display: inline-block;
     text-decoration-line: none;
 }
-section ul img{
-    border: 3px solid lightskyblue;
-    opacity: 0.5;
-   max-height: 100%;
-   max-width: 100%;
-}
+
 section h3{
     
     margin-left: 0.5em;
     align-self:center;
 }
+
 section ul{
     display: flex;
     
@@ -149,13 +151,40 @@ section ul{
     flex-wrap: wrap;
    
 }
+
 section li:first-child{
     flex: 0 0 68%;
 }
+
 section li{
     flex: 0 0 33%;
     position: relative;
     padding: 1em;
+}
+
+section ul img{
+    border: 3px solid lightskyblue;
+    opacity: 0.5;
+   max-height: 100%;
+   max-width: 100%;
+}
+
+section li div{
+    display: inline-block;
+}
+
+footer{
+    display: flex;
+    flex: 2;
+    color:deepskyblue;
+    border: 5px solid whitesmoke;
+    background-image: url("assets/bluecube_pattern.png");
+    background-size: 50em 21em;
+}
+
+footer h3{
+    padding: .5em;
+    color: whitesmoke;
 }
 
 footer ul{
@@ -169,6 +198,7 @@ footer li{
     flex: 0 0 8%;
     padding: 1em;
 }
+
 .repo-name{
     display: inline-block;
     position:absolute;
@@ -180,26 +210,12 @@ footer li{
     padding-left:1em;
     padding-right:0.3em;
     padding-bottom: 1.75em;
-    /* background-color: slateblue; */
 }
-.tooltip{
-    position: absolute;
-    top: 11em;
-    left: 13em;
-    display:none;
-}
+
 nav a:hover{
     background-color: rgb(255, 255, 255);
     border: 5px solid deepskyblue;
     border-radius: 5px;
-}
-
-section li div{
-    display: inline-block;
-}
-
-section ul li:hover .repo-name:first-of-type{
-    display: none;
 }
 
 section ul img:hover {
@@ -207,18 +223,10 @@ section ul img:hover {
     opacity: 1.0;
 }
 
-footer{
-    display: flex;
-    flex: 2;
-    color:deepskyblue;
-    border: 5px solid whitesmoke;
-    background-image: url("assets/bluecube_pattern.png");
-    background-size: 50em 21em;
+section ul li:hover .repo-name:first-of-type{
+    display: none;
 }
-footer h3{
-    padding: .5em;
-    color: whitesmoke;
-}
+
 @media screen and (min-width: 320px) and (max-width: 1024px){
       header{
           flex-direction: column;
@@ -229,17 +237,20 @@ footer h3{
       header h1, nav{
           margin: 4px 4px;
       }
-      .repo-name{
-          font-size: 0.7em;
-      }
-      
+    
       section li{
           flex: 0 0 50%;
       }
       section li:first-child{
           flex: 0 0 50%;
+      } 
+      
+      repo-name{
+          font-size: 0.7em;
       }
+      
 }
+
 @media screen and (max-width: 730px){
     main{
         flex-direction: column;
@@ -262,16 +273,20 @@ footer h3{
          flex-direction: column;
          align-content: center;
      }
-        section li{
-                flex: 1;
+
+    section li{
+            flex: 1;
             }
+
      footer{
         flex-direction: column;
         align-items: center;
      }
+
      span{
          display: none;
      }
+
      .repo-name{
          font-size: 1em;
      }
