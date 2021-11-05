@@ -28,7 +28,7 @@ header{
     border: 5px solid whitesmoke;
     padding: 1%;
     margin-bottom: 1%;
-    background-image: url("bluecube_pattern.png");
+    background-image: url("assets/bluecube_pattern.png");
     background-size: 50em 21em;
     
 }
@@ -212,7 +212,7 @@ footer{
     flex: 2;
     color:deepskyblue;
     border: 5px solid whitesmoke;
-    background-image: url("bluecube_pattern.png");
+    background-image: url("assets/bluecube_pattern.png");
     background-size: 50em 21em;
 }
 footer h3{
