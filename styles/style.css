@@ -1,8 +1,15 @@
+:root {
+    --bgcolor: #323232;
+    --lightbgcolor: #0f98f975;
+    --layoutcolor: #3d70937a;
+}
 body {
     display: flex;
     flex-direction: column;
     row-gap: 3em;
-    padding: 1em;
+    padding: 2em;
+    color: white;
+    background: linear-gradient(132deg, var(--bgcolor), var(--lightbgcolor));
 }
 
 header {
@@ -15,7 +22,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    column-gap: 3em;
+    column-gap: 6em;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: var(--layoutcolor);
 }
 
 nav a {
@@ -24,16 +34,27 @@ nav a {
     text-decoration-line: none;
 }
 
+nav a:hover {
+    color:#ffffff5e;
+    transition: all ease-in 0.3s;
+}
+
 article {
     display: flex;
     flex-direction: row;
     column-gap: 3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: var(--layoutcolor);
 }
 
 main {
     display: flex;
     flex-flow: column;
     row-gap: 3em;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: var(--layoutcolor);
 }
 
 main section {
@@ -42,14 +63,12 @@ main section {
     gap: 5em;
     flex: 2;
 }
-main .repo:nth-child(1) {
-    background-image: url("../assets/pokemongo-weather-companion.png");
-    background-size: 100% 100%;
-}
+
 main section h4 {
     font-size: 1.3em;
 }
-main .repo {
+
+ .repo {
     display: flex;
     flex: 1 1 20em;
     height: 18em;
@@ -57,16 +76,49 @@ main .repo {
     align-items: center;
     justify-content: space-between;
     font-size: 1.1em;
-    border: 0.5em solid green;
+    border: 0.5em solid black;
     border-radius: 0.5em;
 }
-section ul ul {
+
+.repo:hover {
+    box-shadow: 0 0 1em 0.2em rgb(231, 233, 231);
+    transition: all ease-in 0.5s;
+
+}
+
+.repo:hover h4 {
+    box-shadow: 0 -0.2em 1em 0.1em rgb(231, 233, 231);
+    transition: all ease-in 0.5s;
+}
+
+ .repo:nth-child(1) {
+    background-image: url("../assets/pokemongo-weather-companion.png");
+    background-size: 100% 100%;
+}
+
+ .repo h4 {
+    padding: 0.3em;
+    position: relative;
+    top: -4em;
+    border: 0.4em solid black;
+    border-bottom: none;
+}
+
+.repo ul {
     display: flex;
     flex-direction: row;
-    column-gap: 1em;
+    column-gap: 7em;
 }
 
 footer {
     display: flex;
     flex-direction: column;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: var(--layoutcolor);
+}
+
+footer ul {
+    display: flex;
+    column-gap: 3em;
 }
