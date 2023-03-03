@@ -30,7 +30,7 @@ nav {
     justify-content: center;
     column-gap: 6em;
     padding: 1em;
-    border-radius: 0.5em;
+    border-bottom: 0.5em solid white;
     background-color: var(--layoutcolor);
 }
 
@@ -52,6 +52,9 @@ article {
     padding: 1em;
     border-radius: 0.5em;
     background-color: var(--layoutcolor);
+}
+article p {
+    font-size: 1.1em;
 }
 article img {
     width: 13em;
@@ -105,6 +108,14 @@ main section h4 {
     background-size: 100% 100%;
 }
 
+.repo:nth-child(2) {
+    background-image: url("../assets/work-day-scheduler.png");
+    background-size: 100% 100%;
+}
+.repo:nth-child(3) {
+    background-image: url("../assets/weather-dashboard.png");
+    background-size: 100% 100%;
+}
  .repo h4 {
     padding: 0.3em;
     position: relative;
