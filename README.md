@@ -1,15 +1,15 @@
 # Professional Portfolio
 
 ## Description:
-This project was created to display my portfollio on a webpage using HTML5 for the structure of the website and CSS to provide dynamic to my webpage. This portfolio includes a bit about me, projects I've done, and also how you can contact me.
+This project was created to display my portfollio on a webpage using HTML5 for the structure of the website and CSS to provide dynamic to my webpage. This portfolio includes a bit about me, projects I've done.
 ## Preview:
-![alt text](assets/Professional-Portfolio.gif "Portfolio Webpage")
+![alt text](assets/webpage_portfolio.png "Portfolio Webpage")
 ## Links
 [Portfolio Webpage](https://vsanomons1.github.io/Professional_Portfolio/)
 ## License
 MIT License
 
-Copyright (c) [2021] [Eric Mellin Alvarado]
+Copyright (c) [2023] [Eric Mellin Alvarado]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
