@@ -152,7 +152,7 @@ footer ul {
     column-gap: 3em;
 }
 
-@media screen and (width <= 698px) {
+@media screen and (max-width: 698px) {
     header h1 {
         font-size: 2.1em; 
     }
