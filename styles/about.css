@@ -1,0 +1,15 @@
+.list-group {
+    position: relative;
+    top: 3rem;
+}
+.list-group-item {
+    background-color: transparent;
+}
+.list-group-item img {
+    width: 50%;
+}
+.navbar-nav .nav-link.active {
+    color:aqua;
+}
+
+

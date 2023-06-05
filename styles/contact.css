@@ -1,0 +1,16 @@
+.navbar-nav .nav-link.active {
+    color:aqua;
+}
+main {
+    height: 80%;
+}
+main .card {
+    width: 90%;
+    height: 50%;
+}
+.list-group-item {
+    background-color: transparent;
+}
+.list-group-item img {
+    width: 50%;
+}
