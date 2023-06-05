@@ -1,0 +1,12 @@
+.navbar-nav .nav-link.active {
+    color:aqua;
+}
+.list-group-item {
+    background-color: transparent;
+}
+.list-group-item img {
+    width: 50%;
+}
+#repos > div > .card:hover {
+    box-shadow: 0 0 0.2em 0.2em lightblue;
+ }
