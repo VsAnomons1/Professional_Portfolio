@@ -3,7 +3,7 @@
 ## Description:
 This project was created to display my portfollio on a webpage using HTML5 for the structure of the website and CSS to provide dynamic to my webpage. This portfolio includes a bit about me, projects I've done.
 ## Preview:
-![alt text](assets/webpage_portfolio.png "Portfolio Webpage")
+![alt text](assets/portfolio_webpage.png "Portfolio Webpage")
 ## Links
 [Portfolio Webpage](https://vsanomons1.github.io/Professional_Portfolio/)
 ## License
