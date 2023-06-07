@@ -1,15 +1,27 @@
+#about-info {
+    background-color: #435577;
+}
+#about {
+    height: 37em;
+}
+#profile {
+    height: 100%;
+    width: 20em;
+}
 .list-group {
     position: relative;
-    top: 3rem;
+    top: 0.6em;
 }
 .list-group-item {
     background-color: transparent;
 }
-.list-group-item img {
+.list-group-item {
     width: 50%;
 }
-.navbar-nav .nav-link.active {
-    color:aqua;
+.list-group-item img {
+    width: 3em;
 }
-
-
+.list-group-item .img-fluid {
+    height: 100%;
+    min-width: 4rem;
+}

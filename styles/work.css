@@ -1,12 +1,35 @@
-.navbar-nav .nav-link.active {
-    color:aqua;
+:root {
+    --darkblue: #7ca0d5;
+    --lightblue: #95c2e9;
+}
+.card {
+    --bs-card-bg: rgb(255, 255, 230);
+}
+.card-header {
+    background: linear-gradient(45deg, var(--darkblue), var(--lightblue));
+}
+.card ul a:hover {
+    color:#63a0cf;
+    transition: all ease-in 0.5s;
 }
 .list-group-item {
     background-color: transparent;
-}
-.list-group-item img {
+    margin: 0 auto;
+    padding: 0.7em;
     width: 50%;
 }
+.list-group-item:hover {
+    text-decoration-line: underline;
+    transition: all ease-in 0.5s;
+}
+.list-group-item img {
+    width: 3em;
+}
+.list-group-item .img-fluid {
+    height: 100%;
+    min-width: 4rem;
+}
+
 #repos > div > .card:hover {
-    box-shadow: 0 0 0.2em 0.2em lightblue;
+    box-shadow: 0 0 0.2em 0.2em white;
  }
