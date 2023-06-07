@@ -1,0 +1,40 @@
+:root {
+    --bgcolor: #435f77;
+    --darkblue: #7ca0d5;
+    --lightblue: #95c2e9;
+    --navcolor: white;
+    --navbrandcolor: white;
+    --navhovercolor: #0241c1;
+    --navactivecolor: #435577;
+}
+header, footer {
+    background: linear-gradient(180deg, var(--darkblue), var(--lightblue));
+}
+.navbar {
+    --bs-navbar-color: var(--navcolor);
+    --bs-navbar-brand-color: var(--navbrandcolor);
+    --bs-navbar-hover-color: #0241c1;
+}
+.navbar-nav .nav-link.active {
+    color: var(--navactivecolor);
+}
+main {
+    background-color: var(--bgcolor);
+}
+#contact ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    column-gap: 1.5em;
+
+}
+#contact ul li {
+    padding: 0.5em;
+}
+.links.img-fluid {
+    height: 5em;
+}
+.links.bi{
+    width: 5em;
+}

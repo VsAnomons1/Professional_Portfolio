@@ -6,14 +6,13 @@ fetch(url)
     return response.json();
 })
 .then(function(data){
-    console.log(data);
     renderRepos(data);
 })
 // creates and renders starred repos
 function renderRepos(repos){
     for(var i = 0; i < repos.length; i++){
         var div = $("<div>");
-        div.addClass("col-12 col-md-6 col-lg-4 mb-3");
+        div.addClass("col-12 col-md-6 col-lg-4 mt-1 mb-2");
         var card = $("<div>");
         card.addClass("card px-0");
         card.attr("data-status", "unclicked");
