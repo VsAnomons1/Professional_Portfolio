@@ -6,6 +6,7 @@ fetch(url)
     return response.json();
 })
 .then(function(data){
+    console.log(data);
     renderRepos(data);
 })
 // creates and renders starred repos

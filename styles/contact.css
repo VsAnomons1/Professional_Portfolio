@@ -1,3 +1,6 @@
+.container-fluid .row {
+    background-color: #435f77;
+}
 main {
     height: 80%;
 }

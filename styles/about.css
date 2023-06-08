@@ -1,8 +1,11 @@
 #about-info {
-    background-color: #435577;
+    background-color: #435f77;
 }
 #about {
     height: 37em;
+}
+.card {
+    margin: 1.5em 1em;
 }
 #profile {
     height: 100%;
